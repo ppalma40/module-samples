@@ -222,7 +222,35 @@ angular.module('MlsListingSearch')
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Here is a sample of Directives
+
+```markdown
+angular.module('MlsListingSearch')
+    .directive('hotsheetChangeTypes', ['searchDataFields', 'user', 'searchCriteria', function(searchDataFields, user, searchCriteria) {
+        return {
+            restrict: 'A',
+            link: function(scope, elem, attrs) {
+
+                function recallChangeTypes() {
+                    searchDataFields.GetMvoLookups(user.Username, 'ChangeType', searchCriteria().SearchType).then(function(res) {
+                        scope.ChangeTypes = searchCriteria().ChangeType.ChangeTypes.map(id => _.find(res, lookup => lookup.ShortValue === id.value));
+                    });
+                };
+                recallChangeTypes();
+
+                scope.removeChangeType = function(changeType) {
+                    var changeTypes =  _.filter( searchCriteria().ChangeType.ChangeTypes, function(item) {
+                        return item.value !== changeType.ShortValue;
+                    });
+                    searchCriteria().ChangeType.ChangeTypes = changeTypes;
+                    recallChangeTypes();
+
+                };
+            }
+        };
+    }])
+    
+    ```
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ppalma40/module-samples/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
