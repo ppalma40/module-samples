@@ -2,7 +2,7 @@
 
 Here is where prospective clients can learn about our coding practices, level or expertise, processes and procedures. At the end of the day what matters most is that you are getting good quality work. 
 
-Below you'll find a small but substancial sample of our coding portfolio using a variety of technologies along with the URL to the site (if available) of some of our clients. You can always reach out to us by going to ur [IVELOPMENT](http://www.ivelopment.com/) to learn more about us.
+Below you'll find a small but substancial sample of our coding portfolio using a variety of technologies along with the URL to the site (if available) of some of our clients. You can always reach out to us by going to [IVELOPMENT](http://www.ivelopment.com/) to learn more about us.
 
 ### Markdown
 
