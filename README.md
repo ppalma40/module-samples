@@ -220,7 +220,7 @@ angular.module('MlsListingSearch')
     ]);
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+To view the site go to [THE MLS](https://www.themls.com/).
 
 ### Here is a sample of Directives
 
@@ -252,7 +252,7 @@ angular.module('MlsListingSearch')
     
    ```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ppalma40/module-samples/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+To view the site go to [THE MLS](https://www.themls.com/).
 
 ### Support or Contact
 
