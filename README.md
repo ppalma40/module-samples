@@ -1,8 +1,8 @@
 ## Welcome to iVelopment's coding world. 
 
-Here is where prospective client can learn about our coding practices, level or expertise, processes and procedures. At the end of the day what matters most is that you are getting good quality work. 
+Here is where prospective clients can learn about our coding practices, level or expertise, processes and procedures. At the end of the day what matters most is that you are getting good quality work. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Below you'll find a small but substancial sample of our coding portfolio using a variety of technologies along with the URL to the site (if available) of some of our clients. You can always reach out to us by going to ur [IVELOPMENT](http://www.ivelopment.com/) to learn more about us.
 
 ### Markdown
 
