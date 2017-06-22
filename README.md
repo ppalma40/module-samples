@@ -1,6 +1,6 @@
 ## Welcome to iVelopment's coding world. 
 
-You can use the [editor on GitHub](https://github.com/ppalma40/module-samples/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Here is where prospective client can learn about our coding practices, level or expertise, processes and procedures. At the end of the day what matters most is that you are getting good quality work. 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
