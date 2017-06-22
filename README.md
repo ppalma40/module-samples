@@ -254,6 +254,7 @@ angular.module('MlsListingSearch')
 
 To view the site go to [THE MLS](https://www.themls.com/).
 
-### Support or Contact
+### Additional Information
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you would like to see additional information on Angular we've done click [HERE](https://github.com/ppalma40/module-samples/tree/master/modules)
+
