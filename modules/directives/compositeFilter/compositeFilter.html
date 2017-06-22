@@ -1,0 +1,11 @@
+﻿<div class="row">
+    <div class="col-sm-6">
+        <h5 ng-if="filter.DisplayName && filter.DisplayName.length > 0 && category.SearchTemplateCategory.CategoryDisplayName != filter.DisplayName">{{::filter.DisplayName}}</h5>
+    </div>
+    <div class="col-sm-6">
+        <span id="{{filter.FilterType + 'Clear'}}" class="pull-right" style="display: none;"><a href="javascript:void(0);" ng-click="clearValues(filter.FilterType)" class="singleClearButton">Clear</a></span>
+    </div>
+</div>
+<div ng-repeat="filter in filter.Filters | orderBy: 'DisplayOrder'">    
+    <div id="{{::filter.FilterName+ filter.SearchTemplateFilterID}}" render-filter="{{::filter.FilterName}}" model="searchCriteria()[filter.Model]" name="{{::filter.DisplayName}}" modelname="{{::filter.Model}}" ng-hide="hidden"></div>
+</div>

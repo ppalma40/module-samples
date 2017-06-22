@@ -1,0 +1,45 @@
+﻿
+<div class="margin-10 row" id="propertyTypes" style="padding-left: 15px">
+    <ul class="list-inline divided-100 clearfix">
+        <li ng-repeat="propertyType in propertyTypesTemplates | orderBy:'order' | limitTo: (propertyTypesTemplates.length / 2)">
+
+            <label class="checkbox-inline badget-link badget-link-Default labelColumn">
+                <input type="checkbox"
+                       ng-checked="propertyType.checked"
+                       ng-model="propertyType.checked"
+                       id="{{::propertyType.value}}"
+                       value="{{::propertyType.name}}"
+                       ng-click="toggleSelection(propertyType)" /> {{::propertyType.name}}<i></i>
+            </label>
+
+            <div class="listColumns">
+                <span class="badget-link badget-link-info badget-link-Default" ng-repeat="criteria in propertyType.subcriteria" ng-if="propertyType.checked != null && (criteria.summary.length > 0)">
+                    <span ng-click="openPriceRange(propertyType, summaryShowing)" style="text-transform:none;">{{criteria.summary}}</span>
+                    <a class="badget-link-close" href="javascript:void(0);" ng-click="remove(propertyType, criteria.field)">×</a>
+                </span>
+                <a href="javascript:void(0)" ng-click="openPriceRange(propertyType, summaryShowing)" ng-show="propertyType.checked && !summaryShowing[propertyType.name]" class="dolarIcon"> <i class="fa fa-usd"></i></a>
+            </div>
+        </li>
+    </ul>
+
+    <ul class="list-inline divided-100 clearfix">
+        <li ng-repeat="propertyType in propertyTypesTemplates.slice((propertyTypesTemplates.length/2),propertyTypesTemplates.length) | orderBy:'order'">
+
+            <label class="checkbox-inline badget-link badget-link-Default labelColumn">
+                <input type="checkbox"
+                       ng-checked="propertyType.checked"
+                       ng-model="propertyType.checked"
+                       id="{{::propertyType.value}}"
+                       value="{{::propertyType.name}}"
+                       ng-click="toggleSelection(propertyType)" /> {{::propertyType.name}} <i></i>
+            </label>
+            <div class="listColumns">
+                <span class="badget-link badget-link-info badget-link-Default" ng-repeat="criteria in propertyType.subcriteria" ng-if="propertyType.checked != null && (criteria.summary.length > 0)">
+                    <span ng-click="openPriceRange(propertyType, summaryShowing)" style="text-transform:none;">{{criteria.summary}}</span>
+                    <a class="badget-link-close" href="javascript:void(0);" ng-click="remove(propertyType, criteria.field)">×</a>
+                </span>
+                <a href="javascript:void(0)" ng-click="openPriceRange(propertyType, summaryShowing)" ng-if="propertyType.checked && !summaryShowing[propertyType.name]" class="dolarIcon"> <i class="fa fa-usd"></i></a>
+            </div>
+        </li>
+    </ul>
+</div>
