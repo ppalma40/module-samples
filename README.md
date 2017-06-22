@@ -52,6 +52,13 @@ If you would like to see additional information on Angular on other structures c
 
 Backbone.js is a JavaScript framework with a RESTful JSON interface and is based on the model–view–presenter (MVP) application design paradigm. Backbone is known for being lightweight, as its only hard dependency is on one JavaScript library, Underscore.js, plus jQuery for use of the full library. It is designed for developing single-page web applications, and for keeping various parts of web applications (e.g. multiple clients and the server) synchronized.
 
+### API Documentation we do for our customers
+
+### Why Write Good Documentation?
+It makes using your API a pleasure, and with that comes praise. Which means more people will recommend your service, and everyone likes to know they are liked and loved. With that comes an increase in credability, which is beneficial in itself. Depending on your business model this could mean more money for your company.
+
+Check our API documentation work [HERE](http://67.192.157.62/api/help)
+
 
 
 
