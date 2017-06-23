@@ -57,14 +57,16 @@ To view sample code, follow this link [Backbone Sample](https://github.com/ppalm
 To view projects build under Backbone, follow this links: 
 
 [Snap Repordings Backend Dev Portal](https://dev.snaprecordings.com/snapadmin/)
+
 Snap Back End used to full manage order's flow. This is link to the DEV site, we could not grant access to live site for obvious reasons. Snap Recordings Customer's Portal is an ecommerce application to sell Professional Audios Recordings.
 
 USE THIS CREDENTIALS
 username: test
 password: qweqweqwe
 
-[Snap Repordings Live Portal](https://portal.snaprecordings.com/snap/)s.
-Register in order to review the project.
+[Snap Repordings Live Portal](https://portal.snaprecordings.com/snap/)
+
+Register in order to review this project.
 
 ### API Documentation we do for our customers
 
