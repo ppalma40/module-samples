@@ -50,7 +50,21 @@ If you would like to see additional information on Angular on other structures c
 
 ### Backbone
 
-Backbone.js is a JavaScript framework with a RESTful JSON interface and is based on the model–view–presenter (MVP) application design paradigm. Backbone is known for being lightweight, as its only hard dependency is on one JavaScript library, Underscore.js, plus jQuery for use of the full library. It is designed for developing single-page web applications, and for keeping various parts of web applications (e.g. multiple clients and the server) synchronized.
+BackboneJS is a JavaScript-based open-source front-end web application framework based on a MVC pattern.
+
+To view sample code, follow this link [Backbone Sample](https://github.com/ppalma40/module-samples/blob/master/backbone/models/Production.js)
+
+To view projects build under Backbone, follow this links: 
+
+[Snap Repordings Backend Dev Portal](https://dev.snaprecordings.com/snapadmin/)
+Snap Back End used to full manage order's flow. This is link to the DEV site, we could not grant access to live site for obvious reasons. Snap Recordings Customer's Portal is an ecommerce application to sell Professional Audios Recordings.
+
+USE THIS CREDENTIALS
+username: test
+password: qweqweqwe
+
+[Snap Repordings Live Portal](https://portal.snaprecordings.com/snap/)s.
+Register in order to review the project.
 
 ### API Documentation we do for our customers
 
