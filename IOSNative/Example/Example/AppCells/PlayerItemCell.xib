@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PlayerItemCell" id="RGo-iL-50Y" customClass="PlayerItemCell" customModule="Example" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zax-C6-See" customClass="VSView" customModule="Example" customModuleProvider="target">
+                        <rect key="frame" x="5" y="5" width="170" height="170"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="thumb_player" translatesAutoresizingMaskIntoConstraints="NO" id="TIK-sF-uaS">
+                                <rect key="frame" x="0.0" y="0.0" width="170" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TIK-sF-uaS" secondAttribute="height" id="yZO-xt-E8z"/>
+                                </constraints>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xyo-5T-TpU">
+                                <rect key="frame" x="0.0" y="117" width="170" height="53"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="dj9-aG-GqC">
+                                    <rect key="frame" x="0.0" y="0.0" width="170" height="53"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBX-sO-5f2">
+                                            <rect key="frame" x="5" y="3" width="25" height="14.5"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sWb-KH-oDK">
+                                            <rect key="frame" x="5" y="18.5" width="160" height="14.5"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" text="Nationality" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6T-s8-cXN">
+                                            <rect key="frame" x="5" y="34" width="160" height="14.5"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="sWb-KH-oDK" firstAttribute="leading" secondItem="dj9-aG-GqC" secondAttribute="leading" constant="5" id="3nl-OT-Eha"/>
+                                        <constraint firstAttribute="trailing" secondItem="sWb-KH-oDK" secondAttribute="trailing" constant="5" id="CLd-QI-L3I"/>
+                                        <constraint firstAttribute="trailing" secondItem="J6T-s8-cXN" secondAttribute="trailing" constant="5" id="TNY-Fm-X9h"/>
+                                        <constraint firstItem="CBX-sO-5f2" firstAttribute="leading" secondItem="dj9-aG-GqC" secondAttribute="leading" constant="5" id="fBA-FK-pI4"/>
+                                        <constraint firstItem="J6T-s8-cXN" firstAttribute="leading" secondItem="dj9-aG-GqC" secondAttribute="leading" constant="5" id="jV8-aZ-bNE"/>
+                                        <constraint firstItem="sWb-KH-oDK" firstAttribute="top" secondItem="CBX-sO-5f2" secondAttribute="bottom" constant="1" id="m74-AV-8Pr"/>
+                                        <constraint firstItem="J6T-s8-cXN" firstAttribute="top" secondItem="sWb-KH-oDK" secondAttribute="bottom" constant="1" id="mBU-Cd-1wU"/>
+                                        <constraint firstItem="CBX-sO-5f2" firstAttribute="top" secondItem="dj9-aG-GqC" secondAttribute="top" constant="3" id="npS-7V-ngt"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="2v9-AW-ZV6"/>
+                                </constraints>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xyo-5T-TpU" firstAttribute="leading" secondItem="zax-C6-See" secondAttribute="leading" id="Abk-Ek-CLv"/>
+                            <constraint firstItem="TIK-sF-uaS" firstAttribute="top" secondItem="zax-C6-See" secondAttribute="top" id="T9N-jZ-Hvo"/>
+                            <constraint firstItem="TIK-sF-uaS" firstAttribute="leading" secondItem="zax-C6-See" secondAttribute="leading" id="cqp-mn-2AM"/>
+                            <constraint firstAttribute="trailing" secondItem="TIK-sF-uaS" secondAttribute="trailing" id="hTI-BD-HSU"/>
+                            <constraint firstItem="xyo-5T-TpU" firstAttribute="bottom" secondItem="TIK-sF-uaS" secondAttribute="bottom" id="hZi-IR-px5"/>
+                            <constraint firstAttribute="trailing" secondItem="xyo-5T-TpU" secondAttribute="trailing" id="nMH-K2-nbv"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isShawdow" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="zax-C6-See" firstAttribute="leading" secondItem="RGo-iL-50Y" secondAttribute="leading" constant="5" id="Ar3-9W-Imq"/>
+                <constraint firstAttribute="bottom" secondItem="zax-C6-See" secondAttribute="bottom" constant="5" id="B8K-b5-BoU"/>
+                <constraint firstItem="zax-C6-See" firstAttribute="top" secondItem="RGo-iL-50Y" secondAttribute="top" constant="5" id="F6f-Yn-Q8Q"/>
+                <constraint firstAttribute="trailing" secondItem="zax-C6-See" secondAttribute="trailing" constant="5" id="f5b-D4-oFz"/>
+            </constraints>
+            <size key="customSize" width="626" height="116"/>
+            <connections>
+                <outlet property="imgView" destination="TIK-sF-uaS" id="yVj-mT-7Fg"/>
+                <outlet property="lblDate" destination="sWb-KH-oDK" id="L3F-U8-8Dz"/>
+                <outlet property="lblNationality" destination="J6T-s8-cXN" id="I3I-fw-nVl"/>
+                <outlet property="lblTitle" destination="CBX-sO-5f2" id="0Fx-nH-lYs"/>
+            </connections>
+            <point key="canvasLocation" x="164" y="-250"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="thumb_player" width="150" height="150"/>
+    </resources>
+</document>

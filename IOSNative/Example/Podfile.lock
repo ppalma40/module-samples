@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (4.5.0)
+  - AlamofireJsonToObjects (2.4.1):
+    - Alamofire
+    - EVReflection
+  - EVReflection (4.16.3):
+    - EVReflection/Core (= 4.16.3)
+  - EVReflection/Core (4.16.3)
+  - IGListKit (3.0.0):
+    - IGListKit/Default (= 3.0.0)
+  - IGListKit/Default (3.0.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.0.0)
+  - IQKeyboardManagerSwift (4.0.10)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireJsonToObjects
+  - EVReflection
+  - IGListKit
+  - IQKeyboardManagerSwift
+  - SDWebImage
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  AlamofireJsonToObjects: 2f652417f69ca86f229b704cdd00370bb892af45
+  EVReflection: 78a60b3c628a2e765652cdc554a903a3e40b16c8
+  IGListKit: 9eab6856a15fa25ad72018ff9d9eb2178c240fff
+  IQKeyboardManagerSwift: 75ba21a23794a1e6b6fe6d9a267ea17f80e06771
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: 5cb81dbbc20debde637812519d8de59c7e0e5c48
+
+COCOAPODS: 1.2.1
